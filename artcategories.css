@@ -1,0 +1,60 @@
+body{
+    background-color: #fff3bf;
+    font-family: 'Courgette', cursive;
+
+}
+a{
+    margin-left: 10%;
+    text-decoration: none;
+
+}
+h1{
+    font-size: 50px;
+    text-align: center;
+    margin-bottom: 10%;
+    margin-top: 10%;
+    
+}
+.artgenres{
+    /* margin-top: 5%; */
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    margin-left: 12%;
+}
+.artgenres img{
+    width: 90%;
+    height: 70vh;
+   
+
+}
+.artgenres p{
+    margin-bottom: 10%;
+    text-align: center;
+}
+.paintings{
+    
+}
+.paintings img{
+    height: 85vh;
+    width: 90%;
+    border-radius: 40px;
+}
+.allarts{
+    display: grid;
+    grid-template-columns: repeat(4,2fr);
+    margin-left: 5%;
+}
+.allarts img{
+    width: 60%;
+    height: 30vh;
+    margin-top: 5%;
+
+}
+footer{
+    background-color: black;
+    color: white;
+    height: 10vh;
+    text-align: center;
+    padding-top: 20px;
+    margin-top: 10%;
+}

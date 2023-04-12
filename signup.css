@@ -1,0 +1,38 @@
+.signup{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    
+}
+.sign{
+    display: grid;
+    grid-area: auto;
+    
+}
+.secondside{
+    background-color: aqua;
+}
+.secondside img{
+    border-radius: 100%;
+    width: 30%;
+    height: 25vh;
+}
+.toon2{
+    height: 20vh;
+    width: 45%;
+    margin-top: 8%;
+
+}
+.cartoon{
+    width: 40%;
+    height: 15vh;
+    margin-top: 20%;
+}
+.cartoon2{
+    width: 25%;
+    height: 20vh;
+}
+.cartoon4{
+    width: 15%;
+    height: 10vh;
+    margin-top: 15%;
+}

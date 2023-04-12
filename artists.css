@@ -1,0 +1,99 @@
+body{
+    background-color: #fff3bf;
+    font-family: 'Courgette', cursive;
+}
+a{
+    margin-left: 10%;
+    text-decoration: none;
+
+}
+
+h1{
+    font-size: 50px;
+    text-align: center;
+    margin-bottom: 10%;
+    margin-top: 10%;
+    
+}
+.artists{
+    margin-top: 5%;
+    margin-left: 5%;
+    display: grid;
+    grid-template-columns: repeat(3,2fr);
+    object-position: center;
+    margin-right: 5%;
+   
+}
+.firstartist{
+    margin-bottom: 13%;
+}
+.artists p{
+    margin-left: 5%;
+    font-size: 15px;
+}
+.artists img{
+    margin-left: 40%;
+    margin-top: -8%;
+    width: 35%;
+    height: 15vh;
+    border-radius: 100%;
+    
+}
+.firstartist{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.8);
+    width: 80%;
+    height: 55vh;
+    background-color: aqua;
+    margin-left: 20%;
+    
+}
+.secondartist{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.8);
+    width: 80%;
+    height: 55vh;
+    background-color: rgb(197, 197, 29);
+    margin-left: 15%;
+}
+.thirdartist{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.8);
+    width: 80%;
+    height: 55vh;
+    background-color: cadetblue;
+    margin-left: 8%;
+    
+    
+}
+
+.fourthartist{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.8);
+    width: 80%;
+    height: 55vh;
+    margin-top: 10%;
+    background-color: tomato;
+    margin-left: 20%;
+}
+.fifthartist{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.8);
+    width: 80%;
+    height: 55vh;
+    margin-top: 10%;
+    margin-left: 15%;
+    background-color: yellowgreen;
+}
+.sixthartist{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.8);
+    width: 80%;
+    height: 55vh;
+    margin-top: 10%;
+    background-color: teal;
+    margin-left: 8%;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    height: 10vh;
+    text-align: center;
+    padding-top: 20px;
+    margin-top: 10%;
+}
