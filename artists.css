@@ -1,12 +1,21 @@
 body{
-    background-color: #fff3bf;
+    background-color: #ffffff;
     font-family: 'Courgette', cursive;
 }
 a{
-    margin-left: 10%;
+    margin-left: 15%;
     text-decoration: none;
-
+    font-size: 20px;
+    color: white;
 }
+.header{
+    background-color: black;
+    padding: 20px;
+    position: fixed;
+    margin-top: -10%;
+    width: 100%;
+}
+
 
 h1{
     font-size: 50px;
@@ -28,14 +37,15 @@ h1{
     margin-bottom: 13%;
 }
 .artists p{
+    margin-top: 15%;
     margin-left: 5%;
     font-size: 15px;
 }
 .artists img{
-    margin-left: 40%;
-    margin-top: -8%;
-    width: 35%;
-    height: 15vh;
+    margin-left: 30%;
+    margin-top: -28%;
+    width: 60%;
+    height: 35vh;
     border-radius: 100%;
     
 }
@@ -43,51 +53,82 @@ h1{
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.8);
     width: 80%;
     height: 55vh;
-    background-color: aqua;
+    background-color: rgb(86, 95, 95);
     margin-left: 20%;
+    margin-bottom: 60%;
     
 }
+.firstartist:hover{
+    cursor: pointer;
+    transform: scale(1.2);
+    translate: 0.9s;
+    }
 .secondartist{
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.8);
     width: 80%;
     height: 55vh;
-    background-color: rgb(197, 197, 29);
+    background-color:  rgb(86, 95, 95);
     margin-left: 15%;
 }
+.secondartist:hover{
+    cursor: pointer;
+    transform: scale(1.2);
+    translate: 0.9s;
+    }
 .thirdartist{
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.8);
     width: 80%;
     height: 55vh;
-    background-color: cadetblue;
+    background-color:  rgb(86, 95, 95);
     margin-left: 8%;
     
     
 }
+.thirdartist:hover{
+    cursor: pointer;
+    transform: scale(1.2);
+    translate: 0.9s;
+    }
 
 .fourthartist{
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.8);
     width: 80%;
     height: 55vh;
     margin-top: 10%;
-    background-color: tomato;
+    background-color:  rgb(86, 95, 95);
     margin-left: 20%;
 }
+.fourthartist:hover{
+    cursor: pointer;
+    transform: scale(1.2);
+    translate: 0.9s;
+    }
 .fifthartist{
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.8);
     width: 80%;
     height: 55vh;
     margin-top: 10%;
     margin-left: 15%;
-    background-color: yellowgreen;
+    background-color: rgb(86, 95, 95);
 }
+.fifthartist:hover{
+    cursor: pointer;
+    transform: scale(1.2);
+    translate: 0.9s;
+    }
 .sixthartist{
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.8);
     width: 80%;
     height: 55vh;
     margin-top: 10%;
-    background-color: teal;
+    background-color:  rgb(86, 95, 95);
     margin-left: 8%;
 }
+.sixthartist:hover{
+    cursor: pointer;
+    transform: scale(1.2);
+    translate: 0.9s;
+    }
 
 footer{
     background-color: black;
